@@ -1,0 +1,75 @@
+/* table and search  */
+
+/* Main Table Reviewers component */
+.MainTableRe{
+    margin: 50px 0px 50px 0px;
+}
+    tr:nth-child(even){
+        background: #9ba4b520;
+    }
+
+/* This is total number of Reviewers */
+.ContRe{
+    background-color: #212a3e;
+    border-radius: 20px 0px;
+    border-bottom:5px solid #212a3e ;
+    margin-bottom: 1px;
+}
+    .InsidContRe{
+        background-image: linear-gradient(to left ,#3a548d5b, #212A3E);
+        color: #bbc5d9c9;  
+        font-size: 15.5px;
+        padding: 2px 21px 2px 0px ;
+        border-radius: 20px 0px;
+        }
+/* this is the search component */
+.Main-Search{
+    display: grid;
+    width: 100%;
+    }
+        .bg-search{
+        background-color: #B1BCCF;
+        margin-top: -50px;
+        height: 50px;
+        border-radius: 50px 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom:6px solid #212A3E;
+        width: 100%;
+        }
+            .search {
+                border: none;
+                width: 100%;
+                height: 95%;
+                background-color: #E7E7E8;
+                border-radius: 10px;
+                font-family: 'Cairo', sans-serif;
+            }
+                .search:focus { 
+                    border: none;
+                    outline: none;    
+                }
+                    .insid-search{
+                        display: flex;
+                        border-radius: 10px;
+                        align-items: center;
+                        background-color: #E7E7E8;
+                        height: 40px;
+                        width: 40%;
+                    }
+                    @media all and (max-width: 700px) {
+
+                        .MainTableRe{
+                            margin: 50px 0px 50px 0px;
+                            width: 79%;
+                        }
+                        .Main-Search{
+                            width: 79%;
+                        }
+                        .bg-search{
+                            width: 79%;
+                        }
+                    
+                    }
