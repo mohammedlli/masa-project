@@ -139,26 +139,26 @@ export default function MianSecondAdition(){
                             <tr  align='center'>
                                 <td>
                                     <span className='td-info-name'>AXIS </span>
-                                    <span className="span-info-value-t">2.4</span>
+                                    <span className="span-info-value-t">{newuser.l_e_axis}</span>
                                 </td>
                                 <td>
                                     <span className='td-info-name'>CYL </span>
-                                    <span className="span-info-value-t">-4.5</span>
+                                    <span className="span-info-value-t">{newuser.l_e_cyl}</span>
                                 </td>
                                 <td>
                                     <span className='td-info-name'>SPH </span>
-                                    <span className="span-info-value-t">4</span>
+                                    <span className="span-info-value-t">{newuser.l_e_sph}</span>
                                 </td>
                                 <td>
                                     <span className='td-info-name'>AXIS </span>
-                                    <span className="span-info-value-t">1</span>
+                                    <span className="span-info-value-t">{newuser.r_e_axis}</span>
                                 </td>
                                 <td>
                                     <span className='td-info-name'>CYL </span>
-                                    <span className="span-info-value-t">4.6</span></td>
+                                    <span className="span-info-value-t">{newuser.r_e_cyl}</span></td>
                                 <td>
                                     <span className='td-info-name'>SPH </span>
-                                    <span className="span-info-value-t">2.5</span>
+                                    <span className="span-info-value-t">{newuser.r_e_sph}</span>
                                 </td>
                             </tr>
                         </table>
