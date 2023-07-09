@@ -1,0 +1,13 @@
+.main-store{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.store{
+    background-color: rgb(125, 125, 140);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.insid-store{
+    text-align: center;
+}
