@@ -6,7 +6,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
-import { db } from '../../firebase/Firebase';
+import { db } from '../firebase/Firebase';
 import {updateDoc, doc} from 'firebase/firestore';
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;

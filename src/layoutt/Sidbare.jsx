@@ -1,16 +1,17 @@
 import { NavLink, Navigate } from "react-router-dom";
 import AddIcon from '@mui/icons-material/Add';
-import logo from '../../image/55.png'
+import logo from '../image/55.png'
 import WidgetsIcon from '@mui/icons-material/Widgets';
-import SearchIcon from '@mui/icons-material/Search';
-import { useState } from "react";
-import LogoutIcon from '@mui/icons-material/Logout';
 import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
-
+import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
-import { useAuth } from '../authenticationn/authContext/AuthContext';
-export default function MediaSidbar(){
+import { useState } from "react";
+import { useAuth } from '../authContext/AuthContext';
+import LogoutIcon from '@mui/icons-material/Logout';
+ 
+
+export default function SideBar(){
     const [error, setError] = useState("");
     const { currentUser, logout } = useAuth();
     async function handleLogout() {
@@ -23,13 +24,15 @@ export default function MediaSidbar(){
         setError("Failed to log out");
         }
     }
-    return(<div className="SidenavMedia">
+    return(<div className="SideBare">
         <div className="ul">
         <div className="div-img">
         <img style={{width:"30%",borderRadius:"100px"}} src={logo} alt="" />
         </div>
         </div>
-        <div className="elements"><NavLink activeclassName="active" className="elemrnt" to='user'>
+        <div className="elements">
+            
+        <NavLink activeclassName="active" className="elemrnt" to='user'>
         <HomeIcon className="Elament-of-Sid-Bar-icon"/>
         <div className="Elament-of-Sid-Bar">الرئيسية</div>
         </NavLink>

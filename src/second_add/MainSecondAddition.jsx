@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Button from '@mui/material/Button';
 import {collection,query,onSnapshot,doc,deleteDoc,} from 'firebase/firestore';
-import { db } from '../../firebase/Firebase';
+import { db } from '../firebase/Firebase';
 import { LinearProgress } from '@mui/material';
 import PostAddIcon from '@mui/icons-material/PostAdd';
 import DeleteIcon from '@mui/icons-material/Delete';

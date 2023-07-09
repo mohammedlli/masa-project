@@ -1,4 +1,4 @@
-import logo from '../../image/55.png'
+import logo from '../image/55.png'
 import { useState } from 'react';
 import MediaSidbar from './MediaSidbar';
 import CloseIcon from '@mui/icons-material/Close';

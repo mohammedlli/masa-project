@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuth } from '../authenticationn/authContext/AuthContext';
+import { useAuth } from '../authContext/AuthContext';
 import { Link} from "react-router-dom";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 

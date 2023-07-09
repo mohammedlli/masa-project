@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Sidbare from "./layoutt/Sidbare";
-import Header from "./layoutt/Header";
-import Foter from "./layoutt/Foter";
+import Sidbare from "../layoutt/Sidbare";
+import Header from "../layoutt/Header";
+import Foter from "../layoutt/Foter";
 export default function MainDashbord(){
 
     return(
