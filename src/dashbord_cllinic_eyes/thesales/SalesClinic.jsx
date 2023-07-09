@@ -6,7 +6,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import {collection,query,onSnapshot} from 'firebase/firestore';
-import { db } from '../firebase/Firebase';
+import { db } from '../../firebase/Firebase';
 import { useEffect, useState } from 'react';
 export default function SalseClinic(){
     const [townewReviewrs, setTowNewReviewrs] = useState([]);

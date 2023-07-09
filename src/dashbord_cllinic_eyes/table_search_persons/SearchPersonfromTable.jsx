@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Forms from "./Forms";
+import FormTable from "./FormTable";
 import SearchIcon from '@mui/icons-material/Search';
 export default function SearchPersonFromTable(){
     const [search, setSearch] = useState('');
@@ -22,7 +22,7 @@ export default function SearchPersonFromTable(){
             </div>
         </div>
         
-        <Forms
+        <FormTable
         SearchProps={search}/>
         </div>
         </div>

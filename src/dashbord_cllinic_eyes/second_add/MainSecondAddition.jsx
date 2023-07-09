@@ -7,8 +7,8 @@ import { LinearProgress } from '@mui/material';
 import PostAddIcon from '@mui/icons-material/PostAdd';
 import DeleteIcon from '@mui/icons-material/Delete';
 import BorderColorIcon from '@mui/icons-material/BorderColor';
-import SecondAdd from "./SecondAdd";
-import UpdateRevi from "./UpdateRevi";
+import SecondAdditionForm from "./SecondAdditionForm";
+import UpdateTheAdition from "./UpdateTheAdition";
 export default function MianSecondAdition(){
     const [newReviewers, setNewReviewers] = useState([]);
     const [townewReviewrs, setTowNewReviewrs] = useState([]);
@@ -86,7 +86,7 @@ export default function MianSecondAdition(){
                     </Button> 
                 </div> 
             </div>
-            {model&& <SecondAdd usernumberphon={user.numberphone}/>}
+            {model&& <SecondAdditionForm usernumberphon={user.numberphone}/>}
     </div>
         ))}
         {revTow.map(newuser=>(
@@ -207,7 +207,7 @@ export default function MianSecondAdition(){
             <DeleteIcon onClick={() => deleteTask(newuser.id)} className="delet-icon"/>  
             </div>
         </div>
-        {update && <UpdateRevi firbas='items' idr={newuser}/>}
+        {update && <UpdateTheAdition firbas='items' idr={newuser}/>}
     </div>
     
     ))}

@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
-import SideBar from "./lay/SideBar";
-import Header from "./lay/Header";
-import Foter from "./lay/Foter";
+import Sidbare from "./layoutt/Sidbare";
+import Header from "./layoutt/Header";
+import Foter from "./layoutt/Foter";
 export default function MainDashbord(){
 
     return(
         <div className="flex" style={{width:"100%"}}>
-        <SideBar/>
+        <Sidbare/>
         <div className="main-insiddashbord" >
         <div className="insiddashbord" >
         <Header/>

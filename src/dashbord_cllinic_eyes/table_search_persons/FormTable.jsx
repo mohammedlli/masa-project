@@ -8,7 +8,7 @@ import Paper from '@mui/material/Paper';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import React, { useEffect, useState } from "react";
 import {collection,query,onSnapshot} from 'firebase/firestore';
-import { db } from '../../../firebase/Firebase';
+import { db } from '../../firebase/Firebase';
 import { LinearProgress } from '@mui/material';
 import { Link } from 'react-router-dom';
 
