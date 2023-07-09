@@ -1,13 +1,13 @@
 import { NavLink, Navigate } from "react-router-dom";
 import AddIcon from '@mui/icons-material/Add';
-import logo from '../../imgg/55.png'
+import logo from '../../image/55.png'
 import WidgetsIcon from '@mui/icons-material/Widgets';
 import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import { useState } from "react";
-import { useAuth } from "../../contextt/AuthContext";
+import { useAuth } from '../authenticationn/authContext/AuthContext';
 import LogoutIcon from '@mui/icons-material/Logout';
  
 

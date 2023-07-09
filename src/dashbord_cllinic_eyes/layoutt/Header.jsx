@@ -1,6 +1,6 @@
-import logo from '../../imgg/55.png'
+import logo from '../../image/55.png'
 import { useState } from 'react';
-import SidenavMedia from './SidenaveMedia';
+import MediaSidbar from './MediaSidbar';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 export default function Header(){
@@ -13,7 +13,7 @@ export default function Header(){
     <div className='header'>
     <div onClick={handlenav} className='iconnav'>{nav? <CloseIcon fontSize='large'/> :<MenuIcon fontSize='large'/>}</div>
             {nav&&
-            <SidenavMedia />}
+            <MediaSidbar />}
             <h3 className='logo-name'>عوينات فاطمة</h3>
             <img className='logo-imge'  src={logo} alt="" />
         </div>

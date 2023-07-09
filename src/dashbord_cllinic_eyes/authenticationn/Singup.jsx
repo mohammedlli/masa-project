@@ -1,6 +1,6 @@
 import { React, useRef, useState } from "react";
-import { useAuth } from '../contextt/AuthContext';
-import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from '../authenticationn/authContext/AuthContext';
+import { useNavigate } from "react-router-dom";
 import Alert from '@mui/material/Alert';
 
 export default function Signup() {

@@ -8,7 +8,7 @@
     updatePassword,
     } from 'firebase/auth';
     import { React, useContext, useState, useEffect, createContext } from "react";
-    import {auth} from "../firebase/Firebase";
+    import {auth} from '../../../firebase/Firebase';
 
     const AuthContext = createContext();
 
